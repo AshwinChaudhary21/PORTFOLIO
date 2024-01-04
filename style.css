@@ -1,0 +1,143 @@
+.Intro h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    background-color: black;
+    /*background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    color: bisque;
+    clear: right;
+}
+
+.Intro img {
+    border-radius: 10px;
+    padding: 110px 10px;
+    float: right;
+    background-origin: padding-box;
+}
+
+.Intro {
+    border: 10px, solid rgb(219, 11, 11);
+    padding: 30px;
+}
+
+#SecA {
+    font-size: 120%;
+}
+
+.navbar {
+    height: 50%;
+    width: 40%;
+    padding-right: 40px;
+    background-color: black;
+    overflow: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar li {
+    margin: 5px;
+    float: left;
+    list-style: none;
+}
+
+.navbar li a {
+    padding: 2px 5px;
+    font-size: 2em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgba(255, 0, 0, 0.438);
+}
+
+.Contacts button:hover {
+    color: cornsilk;
+    background-color: grey;
+}
+
+.Contacts button {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: azure;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+#Contact h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #e9ecef;
+}
+
+.Contact {
+    height: 500px;
+}
+
+.Contacts {
+    text-align: center;
+    margin-top: 160px;
+}
+
+#About {
+    height: 700px;
+}
+
+#About h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #e9ecef;
+}
+
+.details1 {
+    border: 2px solid white;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0px 0px 150px;
+    padding: 115px 15px 0px 15px;
+    font-size: 1.1em;
+}
+
+.details2 {
+    font-size: 1em;
+    padding: 15px 45px 0px 45px;
+    margin-right: 150px;
+    border: 2px solid white;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0px 0px 100px;
+}
+
+.details1 .heading1 {
+    margin-top: -50px;
+}
+
+#Projects {
+    height: 400px;
+}
+
+#Projects h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #e9ecef;
+}
+
+#Projects #NetflixHomePage img {
+    margin: 0px 0px 0px 160px;
+    border-radius: 10px;
+}
+
+#Projects a :hover {
+    opacity: 60%;
+}
